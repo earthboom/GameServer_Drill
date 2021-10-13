@@ -7,6 +7,9 @@
     <Filter Include="Utils">
       <UniqueIdentifier>{b440b2a7-b155-4a2b-b4a8-a7fb52c58178}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Theory">
+      <UniqueIdentifier>{a177daa2-04d8-492d-a4de-1ff2a32e1dc6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameServer.cpp">
@@ -14,6 +17,15 @@
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="0_Thread_Theory.cpp">
+      <Filter>Theory</Filter>
+    </ClCompile>
+    <ClCompile Include="1_Atomic_Theory.cpp">
+      <Filter>Theory</Filter>
+    </ClCompile>
+    <ClCompile Include="2_lock_Theory.cpp">
+      <Filter>Theory</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
