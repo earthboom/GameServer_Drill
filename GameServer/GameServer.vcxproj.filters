@@ -10,6 +10,9 @@
     <Filter Include="Theory">
       <UniqueIdentifier>{a177daa2-04d8-492d-a4de-1ff2a32e1dc6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Theory\3_Dead_Theory">
+      <UniqueIdentifier>{4f1af692-897f-4194-8bd7-93ae2a6b4fa1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameServer.cpp">
@@ -27,10 +30,25 @@
     <ClCompile Include="2_lock_Theory.cpp">
       <Filter>Theory</Filter>
     </ClCompile>
+    <ClCompile Include="AccountManager.cpp">
+      <Filter>Theory\3_Dead_Theory</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManager.cpp">
+      <Filter>Theory\3_Dead_Theory</Filter>
+    </ClCompile>
+    <ClCompile Include="3_DeadLock_Theory.cpp">
+      <Filter>Theory\3_Dead_Theory</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
       <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountManager.h">
+      <Filter>Theory\3_Dead_Theory</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManager.h">
+      <Filter>Theory\3_Dead_Theory</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -160,6 +160,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1_Atomic_Theory.cpp" />
+    <ClCompile Include="3_DeadLock_Theory.cpp" />
+    <ClCompile Include="AccountManager.cpp" />
     <ClCompile Include="GameServer.cpp" />
     <ClCompile Include="2_lock_Theory.cpp" />
     <ClCompile Include="pch.cpp">
@@ -169,9 +171,12 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="0_Thread_Theory.cpp" />
+    <ClCompile Include="UserManager.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AccountManager.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="UserManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
