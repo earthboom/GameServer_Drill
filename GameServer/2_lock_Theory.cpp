@@ -20,7 +20,7 @@ vector<int32> v;
 
 // Mutual Exclusive ( 상호배타적 )
 // Lock : 한 번에 한 Thread만 접근 가능하도록 하는 개념
-mutex m;	// 일종의 자물쇠. 
+mutex lock_m;	// 일종의 자물쇠. 
 
 
 // RAII (Resource Acqusition Is Initialization)
@@ -59,7 +59,7 @@ void Push()
 
 		// lock_guard와 동일한 역할을 하지만, 좀더 옵션을 추가할 수 있음. (유연성이 있음)
 		// std::defer_lock을 한다면, 선언만 한 상태고 lock을 하지 않고 있음.
-		std::unique_lock<std::mutex> uniqueLock(m, std::defer_lock);
+		std::unique_lock<std::mutex> uniqueLock(lock_m, std::defer_lock);
 		uniqueLock.lock();	// 이 때, lock이 걸림.
 
 		//LockGuard<std::mutex> lockGuard(m);

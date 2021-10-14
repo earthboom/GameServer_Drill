@@ -46,7 +46,7 @@ int DeadLock_main()
 
 	// adopt_lock : 이미 lock된 상태이니까, 나중에 소멸될 떄 풀어주기만 하라.
 	lock_guard<mutex> g1(m1, std::adopt_lock);
-	lock_guard<mutex> g1(m2, std::adopt_lock);
+	lock_guard<mutex> g2(m2, std::adopt_lock);
 
 	return 0;
 }
