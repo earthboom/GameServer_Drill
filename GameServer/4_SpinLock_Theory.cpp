@@ -43,8 +43,12 @@ public:
 		// atomic 함수인 compare_exchange_strong은 위의 CAS 의사코드를 한 번에 실행함. (atomic한 동작)
 		while (_locked.compare_exchange_strong(expected, desired) == false)
 		{
+			// 무한 루프를 돌면서 계속 시도하는 것.
+			// 해당 Thread가 보장 받은 실행 시간을 모두 소진. (Spin Lock 특징)
+			// expected 가 true가 될때까지 이게 Spin Lock
 			expected = false;
 		}
+
 
 
 
