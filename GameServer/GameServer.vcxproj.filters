@@ -45,6 +45,9 @@
     <ClCompile Include="5_Sleep_Theory.cpp">
       <Filter>Theory</Filter>
     </ClCompile>
+    <ClCompile Include="6_Event_Theory.cpp">
+      <Filter>Theory</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
