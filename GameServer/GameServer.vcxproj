@@ -164,6 +164,7 @@
     <ClCompile Include="4_SpinLock_Theory.cpp" />
     <ClCompile Include="5_Sleep_Theory.cpp" />
     <ClCompile Include="6_Event_Theory.cpp" />
+    <ClCompile Include="7_ConditionVariable_Theory.cpp" />
     <ClCompile Include="AccountManager.cpp" />
     <ClCompile Include="GameServer.cpp" />
     <ClCompile Include="2_lock_Theory.cpp" />

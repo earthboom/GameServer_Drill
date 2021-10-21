@@ -48,6 +48,9 @@
     <ClCompile Include="6_Event_Theory.cpp">
       <Filter>Theory</Filter>
     </ClCompile>
+    <ClCompile Include="7_ConditionVariable_Theory.cpp">
+      <Filter>Theory</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
