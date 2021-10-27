@@ -51,6 +51,9 @@
     <ClCompile Include="7_ConditionVariable_Theory.cpp">
       <Filter>Theory</Filter>
     </ClCompile>
+    <ClCompile Include="8_Future_Theory.cpp">
+      <Filter>Theory</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">

@@ -166,6 +166,7 @@
     <ClCompile Include="6_Event_Theory.cpp" />
     <ClCompile Include="7_ConditionVariable_Theory.cpp" />
     <ClCompile Include="AccountManager.cpp" />
+    <ClCompile Include="8_Future_Theory.cpp" />
     <ClCompile Include="GameServer.cpp" />
     <ClCompile Include="2_lock_Theory.cpp" />
     <ClCompile Include="pch.cpp">
