@@ -54,6 +54,9 @@
     <ClCompile Include="8_Future_Theory.cpp">
       <Filter>Theory</Filter>
     </ClCompile>
+    <ClCompile Include="9_Cache_Theory.cpp">
+      <Filter>Theory</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
