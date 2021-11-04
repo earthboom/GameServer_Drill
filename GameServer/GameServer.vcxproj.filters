@@ -60,6 +60,9 @@
     <ClCompile Include="10_CPU_PipeLine_Theory.cpp">
       <Filter>Theory</Filter>
     </ClCompile>
+    <ClCompile Include="11_Memory_Model_Theory.cpp">
+      <Filter>Theory</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
